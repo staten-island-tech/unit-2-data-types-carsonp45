@@ -1,12 +1,13 @@
 def is_discount_allowed(is_Member, age, is_Resident):
-    if(is_Member or is_Resident or age < 12 or age >= 65):
-        print("discount_nice")
-    else:
-        print("no_discount_nice")
-
-    
-    
-    
-print(is_discount_allowed(True, 11, False))
-    
-print(is_discount_allowed(False, 45, True))
+    is_discount_allowed = input("Do you get a discount?")
+    if is_discount_allowed == "is_Member":
+        print("discount nice!")
+    elif is_discount_allowed == "is_Resident":
+        print("discount nice!")
+    elif is_discount_allowed  < 12:
+        print("discount nice!")
+    elif is_discount_allowed >= 65:
+        print("discount nice!")
+    else: 
+        print("no discount nice!")
+is_discount_allowed(is_Member=True, age= < 12 or >= 65, is_Resident=True)
