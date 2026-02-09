@@ -38,7 +38,7 @@ else:
 evenorodd() """
 
 
-bill = 100
+""" bill = 100
 tip_amount = int(input("Your total is 100$, would you like to tip?"))
 def tip_quality():
     print(f"Your total amount is{100+tip_amount}")
@@ -51,3 +51,14 @@ def tip_quality():
     elif tip_amount >= 25:
         print("Great Tip")
 tip_quality()
+ """
+
+def factor(x):
+    print("the factors of", x,"are")
+    for i in range(1,x + 1):
+        if x % i == 0:
+            print(i)
+
+number = 100
+
+factor(number)
