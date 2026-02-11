@@ -63,5 +63,7 @@ number = 100
 
 factor(number) """
 
-import math
-print(math.gcd(3333, 9999999))
+""" import math 
+x = int(input("Give me a number"))
+y = int(input("Give me another number"))
+print(math.gcd(x, y)) """
