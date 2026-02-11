@@ -53,7 +53,7 @@ def tip_quality():
 tip_quality()
  """
 
-def factor(x):
+""" def factor(x):
     print("the factors of", x,"are")
     for i in range(1,x + 1):
         if x % i == 0:
@@ -61,4 +61,7 @@ def factor(x):
 
 number = 100
 
-factor(number)
+factor(number) """
+
+import math
+print(math.gcd(3333, 9999999))
